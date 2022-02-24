@@ -5,23 +5,18 @@ date: "11/18/2021"
 output: html_document
 dataset:
   citation:
-      title: "Social Data Commons: your title here"
+      title: "Social Data Commons: Education & Training: Community College STEM Programs Access Scores"
       subtitle: ""
-      dsDescriptionValue: "Virginia Standards of Learning Test Scores collected by the Virginia Department of Education (VDOE)"
+      dsDescriptionValue: "Access scores to STEM programs (in engineering, engineering-related and computer science) at the community colleges in Virginia"
       subject: "Social Sciences (Ex: Education, Politics, Sociology, Economics, Psychology)"
-      productionDate: "2021-11-17"
-      timePeriodCoveredStart: "2015-01-01"
-      timePeriodCoveredEnd: "2021-01-01"
+      productionDate: "2022-02-23"
+      timePeriodCoveredStart: "2020-01-01"
+      timePeriodCoveredEnd: "2020-12-31"
       dataSources:
-        - "ACS"
-        - "County Health Rankings"
+        - "NCES"
       author:
-        - authorName: "Schroeder, Aaron"
-          authorAffiliation: "Univeristy of Virginia"
         - authorName: "Charankevich, Hanna"
           authorAffiliation: "Univeristy of Virginia"
-        - authorName: "Niagra, Bob"
-          authorAffiliation: "Univeristy of Waterloo"
       datasetContact:
         - datasetContactEmail: "ads7fg@virginia.edu"
           datasetContactName: "Schroeder, Aaron"
@@ -30,7 +25,7 @@ dataset:
       country: "United States"
       state: "Virginia"
     geographicUnit:
-      - "State Health District"
+      - "Census Tract"
       - "County"
 ---
 
