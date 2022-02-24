@@ -1,3 +1,3 @@
-# YOUR_REPO_NAME Ex) dc.template
+# dc.nces.programs
 
-Allows user to easily get YOUR_DATA data from the SDAD Data Commons.  Data can be provided directly or in a file.
+Allows user to easily get community college STEM programs access scores data from the SDAD Data Commons.  Data can be provided directly or in a file.
