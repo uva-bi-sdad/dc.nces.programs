@@ -195,7 +195,7 @@ supply <- read_csv("program_data/comp_ct_supply.csv")
 supply$GEOID <- as.character(supply$GEOID)
 
 # options for OSRM
-options(osrm.server = "http://104.248.112.16:5000/", osrm.profile = "car")
+options(osrm.server = Sys.getenv("OSRM_SERVER"), osrm.profile = "car")
 
 start.time <- Sys.time() # using this to see run-time
 all_data <- matrix(, nrow = 0, ncol = nrow(supply))
