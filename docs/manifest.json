@@ -1,0 +1,59 @@
+{
+  "name": "dc.nces.programs",
+  "data": [
+    {
+      "name": "community_college_computer_sciences_fca",
+      "variables": ["3sfca_capacity", "2sfca30_capacity", "program_capacity", "norm_3sfca", "norm_2sfca"],
+      "file": "va_cttr_nces_2020_community_college_computer_sciences_fca.csv.xz",
+      "size": 49420,
+      "md5": "8900da07b129d128ec0427fc18edde84"
+    },
+    {
+      "name": "community_college_engineering_fca",
+      "variables": ["3sfca_capacity", "2sfca30_capacity", "norm_3sfca", "norm_2sfca", "program_capacity"],
+      "file": "va_cttr_nces_2020_community_college_engineering_fca.csv.xz",
+      "size": 46680,
+      "md5": "5a5c160aa7fa0293197311836683ac71"
+    },
+    {
+      "name": "community_college_engineering_related_fca",
+      "variables": ["3sfca_capacity", "2sfca30_capacity", "norm_3sfca", "norm_2sfca", "program_capacity"],
+      "file": "va_cttr_nces_2020_community_college_engineering_related_fca.csv.xz",
+      "size": 47608,
+      "md5": "f71af023c99ab86d7d65d46f9312c164"
+    }
+  ],
+  "distributions": {
+    "dataverse": {
+      "id": 55938,
+      "doi": "doi:10.18130/V3/BEEKYP",
+      "server": "https://dataverse.lib.virginia.edu/",
+      "data": [
+        {
+          "file": "va_ct_nces_2020_community_college_computer_sciences_fca.csv.xz",
+          "id": 55939,
+          "size": 5332,
+          "md5": "f2c4f691ffb12e5811c4a0b31a4d9e71"
+        },
+        {
+          "file": "va_cttr_nces_2020_community_college_computer_sciences_fca.csv.xz",
+          "id": 55943,
+          "size": 49420,
+          "md5": "8900da07b129d128ec0427fc18edde84"
+        },
+        {
+          "file": "va_cttr_nces_2020_community_college_engineering_fca.csv.xz",
+          "id": 55944,
+          "size": 46680,
+          "md5": "5a5c160aa7fa0293197311836683ac71"
+        },
+        {
+          "file": "va_cttr_nces_2020_community_college_engineering_related_fca.csv.xz",
+          "id": 55945,
+          "size": 47608,
+          "md5": "f71af023c99ab86d7d65d46f9312c164"
+        }
+      ]
+    }
+  }
+}
