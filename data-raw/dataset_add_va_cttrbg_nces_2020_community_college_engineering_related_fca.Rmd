@@ -17,13 +17,17 @@ dataset_doi <- readLines(here::here("data/dataset_doi"))[1]
 
 ## Code you used to create dataset - LIST BELOW
 
-dc_education_training.va_tr_nces_2020_community_college_engineering_fca: programs_fca.R, access_college_programs.ipynb
-dc_education_training.va_tr_nces_2020_community_college_engineering_fca: programs_fca_tract.R, access_college_programs.ipynb
+dc_education_training.va_tr_nces_2020_community_college_engineering_related_fca: stem_programs_fca_tr.R
+dc_education_training.va_ct_nces_2020_community_college_engineering_related_fca: stem_programs_fca_ct.R
+dc_education_training.va_bg_nces_2020_community_college_engineering_related_fca: stem_programs_fca_bg.R
+
 
 ```{r data}
 
 # Ex database_table_name: "va_hd_vdoe_2019_2021_3rd_grade_mean_median_read_score"
-table_names = c("va_tr_nces_2020_community_college_engineering_fca", "va_ct_nces_2020_community_college_engineering_fca") 
+table_names = c("va_bg_nces_2020_community_college_engineering_related_fca",
+                "va_tr_nces_2020_community_college_engineering_related_fca",
+                "va_ct_nces_2020_community_college_engineering_related_fca") 
     
 con <- get_db_conn()
 
@@ -44,7 +48,7 @@ if (length(table_names) > 1)
 
 DBI::dbDisconnect(con)
 
-all_geos_file_name <- "va_cttr_nces_2020_community_college_engineering_fca"  #Ex: "va_vdoe_2019_2021_3rd_grade_mean_median_read_score"
+all_geos_file_name <- "va_cttrbg_nces_2020_community_college_engineering_related_fca"  #Ex: "va_vdoe_2019_2021_3rd_grade_mean_median_read_score"
 assign(all_geos_file_name, all_geos_dat)
 ```
 
